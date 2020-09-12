@@ -7,7 +7,7 @@ before_install:
 
 script:
     - docker run -e CI=true sifer357/docker-react npm run test -- --coverage
-
+    
 deploy:
     provider: elasticbeanstalk
     access_key_id: 
